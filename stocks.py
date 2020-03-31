@@ -29,3 +29,13 @@ y = np.array(df['label'])
 
 X = preprocessing.scale(X)
 y = np.array(df['label'])
+
+X_train, X_test, y_trail, y_test = cross_validation.train_test_split(X, y, test_size=0.2)
+
+clf = svn.SVR()
+
+clf.fit(X_train, y_train)
+
+confidence = clf.score(X_test, y_test)
+
+print(confidence)
