@@ -1,7 +1,7 @@
 import quandl, math
 import numpy as np
 import pandas as pd
-from sklearn import preprocessing, cross_validation, svm
+from sklearn import preprocessing, model_selection, svm
 from sklearn.linear_model import LinearRegression
 
 df = quandl.get("WIKI/GOOGL")
@@ -30,9 +30,9 @@ y = np.array(df['label'])
 X = preprocessing.scale(X)
 y = np.array(df['label'])
 
-X_train, X_test, y_trail, y_test = cross_validation.train_test_split(X, y, test_size=0.2)
+X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.2)
 
-clf = svn.SVR()
+clf = svm.SVR()
 
 clf.fit(X_train, y_train)
 
