@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b865c0cb-d577-4e30-8c39-0243c79ec40f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/stocks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,5 +37,11 @@
       <updated>1585586642205</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="173" y="677" key="com.intellij.ide.util.TipDialog" timestamp="1585680486372">
+      <screen x="0" y="540" width="960" height="600" />
+    </state>
+    <state x="173" y="677" key="com.intellij.ide.util.TipDialog/0.540.960.600/170.0.960.540@0.540.960.600" timestamp="1585680486372" />
   </component>
 </project>
