@@ -43,7 +43,7 @@ pytz==2019.3
 pyxdg==0.25
 PyYAML==3.12
 Quandl==3.5.0
-reportlab==3.4.0
+reportlab==3.5.55
 requests==2.23.0
 requests-unixsocket==0.1.5
 scikit-learn==0.22.2.post1
